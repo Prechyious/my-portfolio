@@ -1,11 +1,11 @@
 import { FaCode, FaGlobe } from "react-icons/fa6";
-import dictionaryWebApp from "../../assets/images/dictionary.png";
-import portfolio from "../../assets/images/portfolio.png";
-import artGallery from "../../assets/images/Art-gallery.png";
-import authenticate from "../../assets/images/Authenticate-me.png";
-import countries from "../../assets/images/countries.png";
-import battleship from "../../assets/images/battleship.png";
-import multiStepForm from "../../assets/images/mobile.png";
+import dictionaryWebApp from "../assets/images/dictionary.png";
+import portfolio from "../assets/images/portfolio.png";
+import artGallery from "../assets/images/Art-gallery.png";
+import authenticate from "../assets/images/Authenticate-me.png";
+import countries from "../assets/images/countries.png";
+import battleship from "../assets/images/battleship.png";
+import multiStepForm from "../assets/images/mobile.png";
 
 export const projects = [
     {

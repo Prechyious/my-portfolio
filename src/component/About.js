@@ -1,6 +1,6 @@
 import { CardsAnimation } from "./Animation/CardsAnimation";
 import { RevealAnimation } from "./Animation/RevealAnimation";
-import { skills } from "./data/Skills";
+import { skills } from "../data/Skills";
 
 const About = () => {
     return (
@@ -8,13 +8,13 @@ const About = () => {
             name="about"
             className="relative px-10 mt-10 md:px-20 md:mt-20"
         >
-            <h2 className="text-center text-2xl md:text-3xl font-bold text-slate-950 dark:text-slate-300">
+            <h2 className="text-2xl font-bold text-center md:text-3xl text-slate-950 dark:text-slate-300">
                 About Me
             </h2>
 
-            <div className="mx-auto mt-2 my-4 h-1 w-8 bg-blue-800 rounded-full"></div>
+            <div className="w-8 h-1 mx-auto my-4 mt-2 bg-blue-800 rounded-full"></div>
 
-            <div className="text-center md:text-left  text-slate-800 dark:text-slate-200/80 font-medium leading-8 text-md md:text-lg tracking-wider">
+            <div className="font-medium leading-8 tracking-wider text-center md:text-left text-slate-800 dark:text-slate-200/80 text-md md:text-lg">
                 <p>
                     Frontend web developer with a knack for bringing ideas and
                     designs to life by creating visually appealing, interactive
@@ -51,13 +51,13 @@ const About = () => {
 
             <div className="mt-10">
                 <RevealAnimation>
-                    <h3 className="text-center text-lg md:text-xl font-bold text-slate-950 dark:text-slate-300">
+                    <h3 className="text-lg font-bold text-center md:text-xl text-slate-950 dark:text-slate-300">
                         Skills and Proficiencies
                     </h3>
-                    <div className="mx-auto mt-2 my-4 h-1 w-8 bg-blue-800 rounded-full"></div>
+                    <div className="w-8 h-1 mx-auto my-4 mt-2 bg-blue-800 rounded-full"></div>
                 </RevealAnimation>
 
-                <div className="my-5 grid grid-cols-2 md:grid-cols-3 gap-5 relative">
+                <div className="relative grid grid-cols-2 gap-5 my-5 md:grid-cols-3">
                     {skills.map((skill) => {
                         return (
                             <CardsAnimation key={skill.text}>
