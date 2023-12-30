@@ -29,29 +29,29 @@ body {
 }
 
 .star1 {
-    animation: starAnimation 5s infinite 0.5s;
+    animation: starAnimation 7s infinite 1s;
 }
 
 .star2 {
-    animation: starAnimation 5s infinite 1s;
+    animation: starAnimation 7s infinite 1.5s;
 }
 
 .star3 {
-    animation: starAnimation 5s infinite 1.5s;
+    animation: starAnimation 7s infinite 2.5s;
 }
 
 .star4 {
-    animation: starAnimation 5s infinite 2s;
+    animation: starAnimation 7s infinite 4s;
 }
 
 .star5 {
-    animation: starAnimation 5s infinite 3s;
+    animation: starAnimation 7s infinite 4.5s;
 }
 
 .star6 {
-    animation: starAnimation 5s infinite 4.5s;
+    animation: starAnimation 7s infinite 5.5s;
 }
 
 .star7 {
-    animation: starAnimation 5s infinite 5s;
+    animation: starAnimation 7s infinite 6.5s;
 }
