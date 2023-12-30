@@ -9,9 +9,49 @@
 }
 
 body {
-    @apply bg-neutral-100 transition-all duration-500 ease-in-out;
+    @apply transition-all duration-500 ease-in-out bg-neutral-100;
 }
 
 .dark {
     @apply bg-black;
+}
+
+@keyframes starAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-1rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.star1 {
+    animation: starAnimation 5s infinite 0.5s;
+}
+
+.star2 {
+    animation: starAnimation 5s infinite 1s;
+}
+
+.star3 {
+    animation: starAnimation 5s infinite 1.5s;
+}
+
+.star4 {
+    animation: starAnimation 5s infinite 2s;
+}
+
+.star5 {
+    animation: starAnimation 5s infinite 3s;
+}
+
+.star6 {
+    animation: starAnimation 5s infinite 4.5s;
+}
+
+.star7 {
+    animation: starAnimation 5s infinite 5s;
 }
