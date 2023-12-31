@@ -20,7 +20,7 @@ const NavBar = () => {
 
     return (
         <nav
-            className={`sticky top-0 left-0 flex justify-between items-center h-14 px-10 md:px-20 bg-neutral-100 dark:bg-black z-10 transition-all duration-500 ease-in-out
+            className={`sticky top-0 left-0 flex justify-between items-center h-14 px-5 md:px-20 bg-neutral-100 dark:bg-black z-10 transition-all duration-500 ease-in-out
                 ${
                     scrolled
                         ? "shadow-md dark:shadow-slate-400/10 px-12 md:px-[5.5rem] bg-neutral-50"
@@ -34,7 +34,7 @@ const NavBar = () => {
                         smooth
                         offset={-80}
                         duration={500}
-                        className="text-blue-950 dark:text-slate-300 font-bold uppercase tracking-wide text-lg md:text-xl cursor-pointer"
+                        className="text-lg font-bold tracking-wide uppercase cursor-pointer text-blue-950 dark:text-slate-300 md:text-xl"
                     >
                         Leghemo
                     </Link>
@@ -67,7 +67,7 @@ const NavBar = () => {
                 <div className="flex items-center gap-x-4">
                     <DarkModeToggle />
                     <div
-                        className="duration-300 ease-in-out cursor-pointer flex flex-col gap-1"
+                        className="flex flex-col gap-1 duration-300 ease-in-out cursor-pointer"
                         onClick={navToggle}
                     >
                         <span

@@ -31,7 +31,7 @@ const Hero = () => {
         <>
             <main
                 name="home"
-                className="relative flex flex-col items-center justify-center h-[91dvh] md:h-[92vh] mx-auto bg-gradient-to-b from-neutral-100 via-white to-neutral-100
+                className="relative flex flex-col items-center justify-center h-[90svh] md:h-[92svh] mx-auto bg-gradient-to-b from-neutral-100 via-white to-neutral-100
         dark:bg-gradient-to-b dark:from-black dark:via-gray-900 dark:to-black"
             >
                 <div className="max-w-xs mx-auto sm:max-w-sm md:max-w-lg">
@@ -101,12 +101,12 @@ const Hero = () => {
                     <FaAngleUp className="text-slate-800 dark:text-slate-400" />
                 </div>
             </main>
-            <div className="hidden text-xs text-neutral-50 dark:block">
-                <TbNorthStar className="absolute text-base opacity-90 top-[10%] right-48 animate-pulse" />
+            <div className="hidden text-[0.5rem] lg:text-xs text-neutral-50 dark:block">
+                <TbNorthStar className="absolute text-base opacity-90 top-[11%] lg:top-[10%] right-5 lg:right-48 animate-pulse" />
                 <BsStars className="absolute opacity-80 top-[20%] left-[15%] star2" />
                 <MdStarRate className="absolute opacity-80 top-96 right-1/4 star3" />
                 <IoStar className="absolute bottom-0 right-[10%] opacity-80 star4" />
-                <IoStar className="absolute bottom-40 right-1/2 star5" />
+                <IoStar className="absolute bottom-10 lg:bottom-40 lg:right-1/2 star5" />
                 <AiFillStar className="absolute top-2/3 opacity-80 left-[15%] star6" />
                 <TiStarHalf className="absolute opacity-80 top-1/4 left-1/2 star7" />
             </div>

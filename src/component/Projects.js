@@ -5,12 +5,12 @@ import { projects } from "../data/Projects";
 
 const Projects = () => {
     return (
-        <section name="projects" className="px-10 mt-20 mb-10 md:px-20">
+        <section name="projects" className="px-5 mt-20 mb-10 md:px-20">
             <h2 className="text-2xl font-bold text-center md:text-3xl text-slate-950 dark:text-slate-300">
                 Projects
             </h2>
             <div className="w-8 h-1 mx-auto my-4 mt-2 bg-blue-800 rounded-full"></div>
-            <p className="text-base font-medium leading-8 tracking-wider text-center md:text-lg text-slate-800 dark:text-slate-200/80">
+            <p className="text-sm font-medium leading-5 tracking-wider text-center md:text-lg text-slate-800 dark:text-slate-200/80">
                 Below are a couple of projects I've worked on
             </p>
 
@@ -72,7 +72,7 @@ const Projects = () => {
                     }
                 )}
             </div>
-            <p className="px-10 mt-2 text-sm font-medium leading-8 tracking-wider md:mt-4 md:text-base text-slate-800 dark:text-slate-200/80">
+            <p className="w-full px-5 mt-2 text-sm font-medium leading-5 tracking-wider md:mt-4 md:text-base text-slate-800 dark:text-slate-200/80">
                 <em>Note:</em> Some of these projects were done following
                 instructions from App Academy's projects instructions
             </p>
