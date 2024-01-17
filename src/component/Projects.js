@@ -5,7 +5,10 @@ import { projects } from "../data/Projects";
 
 const Projects = () => {
     return (
-        <section name="projects" className="px-5 mt-20 mb-10 md:px-20">
+        <section
+            name="projects"
+            className="container px-5 mx-auto mt-20 mb-10 md:px-20"
+        >
             <h2 className="text-2xl font-bold text-center md:text-3xl text-slate-950 dark:text-slate-300">
                 Projects
             </h2>

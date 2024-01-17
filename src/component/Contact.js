@@ -64,20 +64,20 @@ const Contact = () => {
         setHasSubmitted(false);
     };
     return (
-        <section name="contact" className="mt-20 mb-10">
-            <h2 className="text-center text-2xl md:text-3xl font-bold text-slate-950 dark:text-slate-300">
+        <section name="contact" className="container px-5 mx-auto mt-20 mb-10">
+            <h2 className="text-2xl font-bold text-center md:text-3xl text-slate-950 dark:text-slate-300">
                 Contact
             </h2>
-            <div className="mx-auto mt-2 my-4 h-1 w-8 bg-blue-800 rounded-full"></div>
+            <div className="w-8 h-1 mx-auto my-4 mt-2 bg-blue-800 rounded-full"></div>
 
-            <div className="flex flex-col md:flex-row items-start justify-between w-full px-10 md:px-40">
-                <div className="md:w-3/4 p-2">
-                    <p className="font-medium leading-8 text-base md:text-lg tracking-wider text-slate-800 dark:text-slate-200/80 md:max-w-sm">
+            <div className="flex flex-col items-start justify-between w-full px-10 md:flex-row md:px-40 xl:px-20">
+                <div className="p-2 md:w-3/4">
+                    <p className="text-base font-medium leading-8 tracking-wider md:text-lg text-slate-800 dark:text-slate-200/80 md:max-w-sm">
                         Want to have a chat, collaborate, drop a feedback or
                         would like to contact me? Say Hi! below.
                     </p>
                     <RevealAnimation>
-                        <div className="inline-flex space-x-3 py-2">
+                        <div className="inline-flex py-2 space-x-3">
                             <Link
                                 to="https://github.com/Prechyious"
                                 target="_blank"
@@ -111,7 +111,7 @@ const Contact = () => {
                         <form
                             ref={form}
                             onSubmit={sendEmail}
-                            className="flex flex-col gap-5 w-full px-2"
+                            className="flex flex-col w-full gap-5 px-2"
                         >
                             <div className="flex flex-col">
                                 <input

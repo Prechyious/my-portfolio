@@ -4,7 +4,10 @@ import { skills } from "../data/Skills";
 
 const About = () => {
     return (
-        <section name="about" className="relative px-5 mt-10 md:px-20 md:mt-20">
+        <section
+            name="about"
+            className="container relative px-5 mx-auto mt-10 md:px-20 md:mt-20"
+        >
             <h2 className="text-2xl font-bold text-center md:text-3xl text-slate-950 dark:text-slate-300">
                 About Me
             </h2>

@@ -20,7 +20,7 @@ const NavBar = () => {
 
     return (
         <nav
-            className={`sticky top-0 left-0 flex justify-between items-center h-14 px-5 md:px-20 bg-neutral-100 dark:bg-black z-10 transition-all duration-500 ease-in-out
+            className={`sticky top-0 left-0 flex justify-between container mx-auto items-center h-14 px-5 md:px-20 bg-neutral-100 dark:bg-black z-10 transition-all duration-500 ease-in-out
                 ${
                     scrolled
                         ? "shadow-md dark:shadow-slate-400/10 px-12 md:px-[5.5rem] bg-neutral-50"

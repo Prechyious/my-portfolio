@@ -5,7 +5,7 @@ const ProjectsCard = ({ children, imgSrc, ...props }) => {
         <RevealAnimation>
             <div
                 {...props}
-                className="relative max-w-[22rem] h-[22rem] lg:h-[26rem] xl:h-[30rem] overflow-hidden shadow-md border dark:border-2 border-slate-500/30 rounded-2xl group"
+                className="relative max-w-[22rem] h-[22rem] lg:h-[26rem] overflow-hidden shadow-md border dark:border-2 border-slate-500/30 rounded-2xl group"
             >
                 <img
                     src={imgSrc}
